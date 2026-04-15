@@ -3,6 +3,8 @@
 Academic Assessment is a high-security web portal built with Vanilla JavaScript, designed to ensure integrity during remote examinations. It uses WebRTC for real-time camera validation and active browser monitoring to prevent cheating.A high-security, web-based examination portal built with Vanilla JavaScript. This portal is designed to prevent academic dishonesty through real-time surveillance and browser-level restrictions.
 
 ---
+## live demo
+https://bitbard22.github.io/Academic-assessment-portal/
 
 ## ✨ Key Features
 
@@ -55,7 +57,5 @@ This project was developed for educational purposes to demonstrate browser-level
 
 ---
 
-## ⚙️ How to Run Locally
-1. Clone the repository:
-   ```bash
-   https://bitbard22.github.io/Academic-assessment-portal/
+
+   
