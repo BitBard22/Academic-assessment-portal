@@ -13,11 +13,8 @@ Academic Assessment is a high-security web portal built with Vanilla JavaScript,
 * **Violation Counter:** If a user attempts more than 3 security breaches (screenshots or tab switching), the exam terminates instantly.
 * **24-Hour Lockout:** Students who fail (score < 5/10) or are disqualified due to violations are locked out of that subject for 24 hours using `localStorage`.
 * **Camera Lock:** Access is denied unless a live laptop camera is detected.
-
-* **Anti-Cheat Triggers:** Detects screenshots, tab switching, and unauthorized shortcuts.
-
+* **Anti-Cheat Triggers:** Detects screenshots, tab switching, and unauthorized shortcuts.Disables right-click (context menu) and blocks common screen-capture keyboard shortcuts.
 * **Smart Lockout:** Automatically terminates the exam after 3 violations and enforces a 24-hour retake penalty.
-
 * **Performance Tracking:** Vertical subject navigation with a 5-minute timer and automated result reporting.
 
 ### 💻 Technical Highlights
@@ -36,15 +33,29 @@ Academic Assessment is a high-security web portal built with Vanilla JavaScript,
 
 ---
 
-## 🛠️ Built With
-* **HTML5** - Structure and semantic layout.
-* **CSS3** - Custom styling with a focus on high-contrast "Surveillance" UI.
-* **JavaScript (ES6)** - Logic for timers, camera integration, and security triggers.
-* **WebRTC API** - For real-time camera access.
+## 🛠️ Technical Stack
+* **Frontend:** HTML5, CSS3 (Pastel/Nude UI Aesthetic)
+* **Logic:** Vanilla JavaScript (ES6+)
+* **Hardware Integration:** WebRTC MediaDevices API (Camera Access)
+* **Storage:** Browser LocalStorage for persistent lockout tracking
+* **Security:** Focus/Blur event listeners and Keydown interception
+
+---
+
+## ⚙️ How to Test
+1.  Open the **Live Demo** link.
+2.  Allow **Camera Permissions** in your browser.
+3.  Select a subject from the vertical homepage list.
+4.  Try to switch tabs or take a screenshot to see the security triggers in action!
+
+---
+
+### ⚖️ Disclaimer
+This project was developed for educational purposes to demonstrate browser-level security and hardware integration in web applications.
 
 ---
 
 ## ⚙️ How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone []
+   git clone [https://bitbard22.github.io/Academic-assessment-portal/]
