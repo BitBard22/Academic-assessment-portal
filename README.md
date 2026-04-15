@@ -58,4 +58,4 @@ This project was developed for educational purposes to demonstrate browser-level
 ## ⚙️ How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone [https://bitbard22.github.io/Academic-assessment-portal/]
+   https://bitbard22.github.io/Academic-assessment-portal/
